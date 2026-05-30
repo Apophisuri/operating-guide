@@ -1,0 +1,17 @@
+# 编译文件
+*.class
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+
+# 忽略PDF
+*.pdf
+
+# 忽略Obsidian工作区
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
