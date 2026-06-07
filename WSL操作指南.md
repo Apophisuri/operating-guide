@@ -207,3 +207,45 @@ git config --global credential.helper store
 - `explorer.exe .`：在 Linux 中快速唤起 Windows 资源管理器查看当前目录文件。
 - `pwd`：打印当前所在绝对路径。
 - `cd ~`：一键返回 Linux 用户主目录。
+
+📁 文件与目录操作
+
+- `ls`：列出当前目录下的文件。
+- `cd`：切换当前工作工作目录。
+- `pwd`：显示当前的绝对路径。
+- `mkdir`：创建全新文件夹目录。
+- `touch`：创建空白文件或修改时间。
+- `cp`：复制文件或者整个目录。
+- `mv`：移动文件或为文件重命名。
+- `rm`：删除文件或用 `-r` 删除目录。
+
+📄 文件内容查看与编辑
+
+- `cat`：一次性查看全部文件内容。
+- `more`：分页查看大文件文本内容。
+- `less`：支持前后翻页查看文本。
+- `head`：查看文件开头的若干行。
+- `tail`：常接 `-f` 实时滚动查看日志。
+- `grep`：强大的文本关键词搜索工具。
+- **`grep`**：**G**lobally search for a **R**egular **E**xpression and **P**rint
+  - *Meaning:* A text-search tool that parses lines using regular expressions.
+- `vim`：终端中常用的文本编辑器。
+
+⚙️ 系统状态与管理
+
+- `ps`：静态查看当前进程的状态。（**P**rocess **S**tatus）
+- `top`：动态查看系统资源占用率。（**T**able **O**f **P**rocesses）
+- `kill`：发送信号强制杀死某进程。
+- `df`：查看磁盘剩余空间容量。（**D**isk **F**ree）
+- `free`：查看内存使用与剩余情况。
+- `chmod`：修改文件或目录读取权限。(Change Mode)
+- `chown`：修改文件所属用户和组。(**Ch**ange **Own**er)
+
+🌐 网络与连接
+
+- `ping`：测试网络到目的主机的连通性。
+- `ifconfig`：查看当前网卡的网络配置。
+- `netstat`：常接 `-tunpl` 查看端口占用。（**Net**work **Stat**istics）
+- `ssh`：通过安全协议远程登录服务器。（**S**ecure **Sh**ell）
+
+------
